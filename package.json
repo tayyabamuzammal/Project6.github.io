@@ -1,6 +1,6 @@
 {
   "name": "project6",
-  "homepage": "https://tayyabamuzammal.github.io/Project6"
+  "homepage": "https://tayyabamuzammal.github.io/Project6.github.io"
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview"
+    "predeploy": "npm run build",
         "deploy": "gh-pages -d dist"
   },
   "dependencies": {
